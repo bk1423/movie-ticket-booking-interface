@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Ticket Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .movie-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .movie-card {
+      width: 200px;
+      padding: 20px;
+      margin: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    .movie-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .movie-title {
+      font-size: 18px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    .movie-btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .movie-btn:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    Movie Ticket Booking
+  </div>
+
+  <div class="movie-list">
+    <div class="movie-card">
+      <img src="https://via.placeholder.com/150" alt="Movie 1">
+      <div class="movie-title">Movie 1</div>
+      <button class="movie-btn">Book Ticket</button>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://via.placeholder.com/150" alt="Movie 2">
+      <div class="movie-title">Movie 2</div>
+      <button class="movie-btn">Book Ticket</button>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://via.placeholder.com/150" alt="Movie 3">
+      <div class="movie-title">Movie 3</div>
+      <button class="movie-btn">Book Ticket</button>
+    </div>
+  </div>
+</body>
+
+</html>
